@@ -1,0 +1,126 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:HunInn;	
+	color: black;
+}
+
+p {
+	font-size: 18px;
+}
+
+@font-face {
+	font-family: 'HunInn';
+	src: url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.eot); /* IE9 Compat Modes */
+	src: url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.woff) format("woff"), /* Modern Browsers */
+	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.ttf) format("truetype"), /* Safari, Android, iOS */
+	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
+}
+.navbar img {
+	height: 30px;
+}
+.navbar p{
+	font-size: 20px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	max-width: 100%;
+	padding-left:30px!important;
+	padding-right:30px!important;
+	height: 100px;
+	background-color: #DCD8CC;
+}}
+
+.form-control {
+	margin-left: 30px;
+	width: 300px;
+}
+
+.icon {
+	margin-left: 30px;
+}
+
+.content{
+	padding-top: 72px;
+	padding-left: 242px;
+	padding-right: 242px;
+	text-align: center;
+}
+.content span{
+	color: #A97355; 
+	font-size: 30px;
+	text-align: center;
+}
+.content p{
+	margin: 0;
+}
+
+
+
+.form{
+	display: flex;
+	justify-content:space-between;
+}
+.form p{
+	float: left;
+	color: #492B29;
+}
+.box{
+	width:calc(100% - 130px);
+}
+.form input {
+	float: left;
+	height: 30px;
+	width:100%;
+	background-color: #ffffff;
+	border:1px solid #492B29;
+	resize: vertical;
+	margin:7px 0;
+}
+
+.form textarea {
+	float: left;
+	height: 100px;
+	width:100%;
+	background-color: #ffffff;
+	border:1px solid #492B29;
+	resize: vertical;
+	margin:7px 0;
+}
+
+input[type=submit] {
+  background-color: #797E6C;
+  color: white;
+  border-radius:10px;
+  width: 100px!important;
+  height: 30px;
+  border: none;
+  margin: 30px;
+}
+
+input[type=submit]:hover {
+  background-color: #EFE9C9;
+}
+
+/*底標*/
+.footer{
+	background-color: #7e6b5a;
+	width: 100%;
+	vertical-align: middle;
+	text-align:center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer p{
+	font-size: 15px;
+	color: #ffffff;
+	margin:0px;
+}

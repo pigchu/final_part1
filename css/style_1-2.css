@@ -1,0 +1,156 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:HunInn;	
+	color: black;
+}
+
+p {
+	font-size: 18px;
+}
+
+@font-face {
+	font-family: 'HunInn';
+	src: url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.eot); /* IE9 Compat Modes */
+	src: url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.woff) format("woff"), /* Modern Browsers */
+	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.ttf) format("truetype"), /* Safari, Android, iOS */
+	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
+}
+.navbar img {
+	height: 30px;
+}
+.navbar p{
+	font-size: 20px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	max-width: 100%;
+	padding-left:30px!important;
+	padding-right:30px!important;
+	height: 100px;
+	background-color: #DCD8CC;
+}}
+
+.form-control {
+	margin-left: 30px;
+	width: 300px;
+}
+
+.icon {
+	margin-left: 30px;
+}
+
+.left{
+	float:left;
+	margin-top: 72px!important;
+	margin-left:30px!important;
+}
+.center{
+	float:left;
+	margin-top: 72px!important;
+	margin-left:30px!important;
+	width: 330px;
+}
+.right{
+	float:left;
+	margin-top: 72px!important;
+	margin-left:30px!important;
+	margin-right:30px!important;
+	width: calc(100% - 618px);
+
+}
+.update{
+	background-color: #7e6b5a;
+	width: 168px;
+	height: 75px;
+	border-radius:15px;
+	text-align:center;
+	vertical-align: middle;
+	margin: auto;
+	font-size: 20px;
+	color: #ffffff;
+	line-height:75px;
+	text-decoration:none;
+	margin-bottom: 17px;
+}
+
+.label_part{
+	width: 168px;
+	height: 547px;
+	background-color: #EFE9C9;
+}
+.label_part ul{
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+.label_part li {
+	list-style-position: inside;
+	font-size: 20px;
+	line-height:20px;
+	padding: 0px;
+	margin: 0px;
+}
+.label_part li:hover{
+	color:#797E6C;
+	text-decoration:underline;
+}
+
+.book_picture img{
+	width: 330px;
+	height: auto;
+}
+.book_small{
+	justify-content:space-between;
+}
+.book_small img{
+	height: 135px;
+	width: auto;
+}
+
+.center .book_small img{
+	margin-top: 35px;
+}
+
+.book_content p{
+	font-size: 15px;
+}
+
+.user img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.user_content{
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.user_book p{
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+
+/*底標*/
+.footer{
+	background-color: #7e6b5a;
+	width: 100%;
+	vertical-align: middle;
+	text-align:center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer p{
+	font-size: 15px;
+	color: #ffffff;
+	margin:0px;
+}
