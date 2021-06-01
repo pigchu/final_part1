@@ -50,7 +50,6 @@ p {
 
 .left{
 	float:left;
-	
 	margin-top: 72px!important;
 	padding-left:30px!important;
 }
@@ -75,9 +74,6 @@ p {
 	text-decoration:none;
 	margin-bottom: 17px;
 }
-.left a:hover {
-    text-decoration: none; 
-}
 
 .label_part{
 	width: 168px;
@@ -97,9 +93,23 @@ p {
 }
 .label_part li:hover{
 	color:#797E6C;
-	text-decoration:underline;
 }
-
+.cart li:{
+	text-decoration: underline;	
+}
+.cart li a.active{
+	color:#797E6C;
+}
+.cart a{
+	text-decoration: none;	
+}
+.cart ul{
+	display: none;
+	text-decoration: none; 
+}
+.cart a,.cart ul{
+	text-decoration: none;	
+}
 .title p{
 	font-size: 30px;
 	margin-bottom: 0px;

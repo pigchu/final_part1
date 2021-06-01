@@ -100,7 +100,22 @@ p {
 }
 .label_part li:hover{
 	color:#797E6C;
-	text-decoration:underline;
+}
+.cart li:{
+	text-decoration: underline;	
+}
+.cart li a.active{
+	color:#797E6C;
+}
+.cart a{
+	text-decoration: none;	
+}
+.cart ul{
+	display: none;
+	text-decoration: none; 
+}
+.cart a,.cart ul{
+	text-decoration: none;	
 }
 
 .book_picture img{
@@ -117,22 +132,31 @@ p {
 
 .center .book_small img{
 	margin-top: 35px;
+	cursor: pointer;
 }
 
 .book_content p{
 	font-size: 15px;
 }
-
+.user{
+	display: flex;
+}
 .user img{
 	width: 80px;
 	height: 80px;
 	float: left;
+	border-radius:50%;
 }
 .user_content{
 	float: left;
-	display: flex;
+
 	align-items: center;
 }
+.user_content p{
+	padding-left: 10px;
+	align-items: center;
+}
+
 
 .user_book p{
 	margin-bottom: 0;

@@ -14,7 +14,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
-		<a class="navname" href="#"><img src="img/logo.png"></a>
+		<a class="navname" href="index.html"><img src="img/logo.png"></a>
 		<div><input type="text" name="key" class="form-control" placeholder="Search" style="height: 35px;">
 		</div>
 		<a href="#">
@@ -28,10 +28,10 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
          	<ul class="navbar-nav ml-auto">
-         		<li class="nav-item"><a class="nav-link" href="#">二手書籍</a></li>
-         		<li class="nav-item"><a class="nav-link" href="#">公益活動</a></li>
+         		<li class="nav-item"><a class="nav-link" href="index_1-1.html">二手書籍</a></li>
+         		<li class="nav-item"><a class="nav-link" href="index_2.html">公益活動</a></li>
       			<li class="nav-item"><a class="nav-link" href="index_3.html">會員專區</a></li>
-      			<li class="nav-item"><a class="nav-link" href="#">關於我們</a></li>
+      			<li class="nav-item"><a class="nav-link" href="index_4.html">關於我們</a></li>
     		</ul>
         </div>
 	</nav>
@@ -71,8 +71,10 @@
 		<div class="picture form">
 			<p>書籍照片</p>
 			<div class="box">
-				<!-- 要改 -->
-				<textarea placeholder=""></textarea>
+<!-- 				<input type="file" class="picture_form" name="file" onchange="showImg(this)" />
+				<img id="showimg" src="" style="display:none;height: 100px;margin:0px auto;" /> -->
+				<input id="file" type="file"/>
+				<img id="demo"/>
 			</div>
 		</div>
 		<div style="clear:both;"></div>
@@ -91,19 +93,25 @@
 			</div>
 		</div>
 	</div>
-	<div class="text-center"><input type="submit" value="SEND"></div>
+	<div class="text-center">
+		<input type="submit" value="SEND" id="send">
+	</div>
+	<div class="text-center">
+		<input type="button" onclick="history.back()" value="回上一頁">
+	</div>
 </div>
 
 
 
 <div style="clear:both;"></div>
 <div class="footer">
-	<p>©SHUZENCANG 2021</p>
+	<p>©shuzhencang 2021／No.1001, Daxue Rd., East Dist., Hsinchu City, Taiwan (R.O.C.)</p>
 </div>
 	
 
 
 	<script type="text/JavaScript" src="js/jquery.js"></script>
 	<script type="text/JavaScript" src="js/bootstrap.min.js"></script>
+	<script type="text/JavaScript" src="js/script.js"></script>
 </body>
 </html>
