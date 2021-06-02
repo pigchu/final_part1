@@ -22,22 +22,23 @@ p {
 	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.ttf) format("truetype"), /* Safari, Android, iOS */
 	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
 }
-.navbar img {
-	height: 30px;
-}
-.navbar p{
-	font-size: 20px;
+/*nav選單*/
+.navname {
+	font-family: HunInn;
+	font-size: 30px;
+	color: black;
 }
 
 @media (min-width: 768px) {
-/*nav選單*/
+
 	.navbar{
 	max-width: 100%;
 	padding-left:30px!important;
 	padding-right:30px!important;
 	height: 100px;
 	background-color: #DCD8CC;
-}}
+
+}
 
 .form-control {
 	margin-left: 30px;
