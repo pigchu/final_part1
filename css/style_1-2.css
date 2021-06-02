@@ -22,6 +22,7 @@ p {
 	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.ttf) format("truetype"), /* Safari, Android, iOS */
 	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
 }
+
 /*nav選單*/
 .navname {
 	font-family: HunInn;
@@ -42,16 +43,27 @@ p {
 
 .form-control {
 	margin-left: 30px;
-	width: 300px;
+	width: 300px!important;
 }
 
 .icon {
-	margin-left: 30px;
+	margin-left: 15px;
+}
+
+.nav-item {
+	font-family: HunInn;
+}
+
+.navbar{
+	font-size: 20px;
+	font-family: "HunInn";
+}
 }
 
 .left{
 	float:left;
-	margin-top: 72px!important;
+	margin-top: 150px!important;
+	margin-bottom: 10px;
 	margin-left:30px!important;
 }
 .center{
@@ -59,6 +71,8 @@ p {
 	margin-top: 72px!important;
 	margin-left:30px!important;
 	width: 330px;
+	margin-top: 150px!important;
+	margin-bottom: 10px;
 }
 .right{
 	float:left;
@@ -66,7 +80,8 @@ p {
 	margin-left:30px!important;
 	margin-right:30px!important;
 	width: calc(100% - 618px);
-
+	margin-top: 150px!important;
+	margin-bottom: 10px;
 }
 .update{
 	background-color: #7e6b5a;
@@ -162,6 +177,19 @@ p {
 .user_book p{
 	margin-bottom: 0;
 	margin-top: 10px;
+}
+input[type=button] {
+  background-color: #EFE9C9;
+  color: #492B29;
+  border-radius:10px;
+  width: 100px!important;
+  height: 30px;
+  border: none;
+  margin: 5px 30px 30px 30px;
+}
+
+input[type=button]:hover {
+  background-color: #797E6C;
 }
 
 

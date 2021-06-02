@@ -22,6 +22,8 @@ p {
 	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.ttf) format("truetype"), /* Safari, Android, iOS */
 	url(https://cdn.jsdelivr.net/gh/marsnow/open-huninn-font@1.1/font/jf-openhuninn.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
 }
+
+
 /*nav選單*/
 .navname {
 	font-family: HunInn;
@@ -39,18 +41,30 @@ p {
 	background-color: #DCD8CC;
 
 }
+
 .form-control {
 	margin-left: 30px;
-	width: 300px;
+	width: 300px!important;
 }
 
 .icon {
-	margin-left: 30px;
+	margin-left: 15px;
+}
+
+.nav-item {
+	font-family: HunInn;
+}
+
+.navbar{
+	font-size: 20px;
+	font-family: "HunInn";
+}
 }
 
 .left{
 	float:left;
-	margin-top: 72px!important;
+	margin-top: 150px!important;
+	margin-bottom: 50px;
 	padding-left:30px!important;
 }
 .right{
@@ -59,7 +73,11 @@ p {
 	padding-left:30px;
 	padding-right:30px!important;
 	width: calc(100% - 198px);
+	margin-top: 120px!important;
+	margin-bottom: 50px;
 }
+
+
 .update{
 	background-color: #7e6b5a;
 	width: 168px;
